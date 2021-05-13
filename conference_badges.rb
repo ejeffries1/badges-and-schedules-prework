@@ -18,6 +18,6 @@ end
 
 def printer(array)
   batch_badge_creator(array).each do |i|
-    puts i
+    puts "#{i}"
   end
 end
